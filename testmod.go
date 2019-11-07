@@ -2,6 +2,6 @@ package testmod
 
 import "fmt"
 
-func SayHellw(name string) string {
-	return fmt.Sprintf("Hello, %s", name)
+func SayHello(name string) string {
+	return fmt.Sprintf("你好, %s", name)
 }
